@@ -14,7 +14,7 @@ void main() async {
     
     debugShowCheckedModeBanner: false,
 
-    initialRoute: "/notes",
+    initialRoute: "/signup",
     routes: {
       "/": (context) => Home(),
       "/login": (context) => Login(),

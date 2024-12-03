@@ -70,7 +70,7 @@ class _NotesState extends State<Notes> {
                 Map<String, dynamic> data = document.data() as Map<String, dynamic>;
 
                 String notetext = data["note"];
-                String notetext1 = data["timestamp"].toDate().toString();
+               // String notetext1 = data["timestamp"].toDate().toString();
 
                 return ListTile(
                   title: Text(notetext, style: TextStyle(color: Colors.blueAccent, fontSize: 20.0),),
@@ -87,7 +87,6 @@ class _NotesState extends State<Notes> {
                       )
                     ],
                   ),
-                  leading: Text(notetext1),
                 );
               },
             );
